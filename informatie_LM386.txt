@@ -1,0 +1,42 @@
+informatie LM386:
+
+deze chip bevat 8 pinnen:
+
+1 -> gain1: deze pin wordt gebruikt om de gain van de AMP in te stellen
+2 -> gain2: deze pin wordt ook gebruikt om de gain van de AMP in te stellen
+3 -> input: deze pin is de niet-inverterende input van de AMP
+4 -> Ground: deze pin in verbonden met de ground.
+5 -> Vout: uitgang van de AMP
+6 -> Vs: deze pin is verbonden met de bron van het circuit
+7 -> bypass: deze pin wordt gerbuikt als men da gain wilt overbruggen om de maximale versterking te behalen.
+8 -> NFB: Deze pin wordt gebruikt om negatieve feedback te geven aan de versterker.
+
+
+de interne componenten:
+
+3x 15k weerstanden
+1x 1.35k weerstand
+1x 150 weerstand
+2x 50K weerstand
+
+6transistoren waarvan:
+
+Q1 en Q2 zijn NPN-transistors die de differentiële ingangstrap vormen.
+Deze transistors zijn typisch klein-signaal transistors met een laag ruisgetal, 
+zoals de 2N3904.
+
+Q3 is een PNP-transistor die dient als stroomspiegelbelasting voor de ingangstrap.
+Deze transistor is typisch een klein-signaal PNP-transistor,
+zoals de 2N3906.
+
+Q4 is een NPN-transistor die fungeert als spanningsversterker. 
+Deze transistor is typisch een klein-signaal NPN-transistor, 
+zoals de 2N3904.
+
+Q5 en Q6 zijn NPN eindtransistors die de klasse AB eindversterker vormen. 
+Deze transistors zijn typisch hoog vermogen transistors, 
+zoals de TIP41C of TIP31C (die meerdere watts vermogen kunnen leveren aan een belasting.)
+
+
+
+
