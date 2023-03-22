@@ -21,6 +21,10 @@ de interne componenten:
 
 6transistoren waarvan:
 
+deze transistoren kloppen nog niet helemaal: bv Q1 en Q2 zijn in denk ik PNP transistoren ipv NPN (moet nog nagekeken worden).
+Q3 en Q4 zouden wel moeten kloppen.
+Q5 en Q6 moet nog ingekeken worden.
+
 Q1 en Q2 zijn NPN-transistors die de differentiële ingangstrap vormen.
 Deze transistors zijn typisch klein-signaal transistors met een laag ruisgetal, 
 zoals de 2N3904.
